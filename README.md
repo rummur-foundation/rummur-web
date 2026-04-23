@@ -1,6 +1,6 @@
 # rummur-web
 
-Browser-based showcase for the [Rummur protocol](../rummur-protocol) — private messaging layered on top of Monero.
+Browser-based showcase for the [Rummur protocol](https://github.com/rummur-foundation/rummur-protocol) — private messaging layered on top of Monero.
 
 ## What it demonstrates
 
@@ -29,7 +29,7 @@ nonce layout (255 bytes):
 
 The nonce is placed in the `tx_extra_nonce` field (tag `0x02`) of the transaction. On-chain it is indistinguishable from any other Monero transaction.
 
-See [`../rummur-protocol/PROTOCOL.md`](../rummur-protocol/PROTOCOL.md) for the full normative specification.
+See [`PROTOCOL.md`](https://github.com/rummur-foundation/rummur-protocol/blob/main/PROTOCOL.md) for the full normative specification.
 
 ## Tech stack
 
